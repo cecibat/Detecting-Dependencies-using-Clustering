@@ -7,4 +7,6 @@ A Ground Truth csv file describing the true dependencies among test cases was pr
 
 The goal is to detect these dependencies clustering together the dependent test cases; in other words, test cases belonging to different clusters are assumed to be independent.
 
-The approach implied testing mainly two different clustering unsupervised algorithms: K-Means and HDBSCAN - using and passing different parameters. The software used was Python - specifically sklearn, numpy and hdbscan.
+The approach implied testing mainly two different clustering unsupervised algorithms: K-Means and HDBSCAN - using and passing different parameters. The performance of clustering algorithms' was evaluated using an evaluation metric (TruePositive, TrueNegative, FalsePositive & FalseNegative) and three specific indexes: Recall , Precision and F-Measure.
+
+The software used was Python - specifically sklearn, numpy and hdbscan.
